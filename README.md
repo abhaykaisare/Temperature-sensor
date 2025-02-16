@@ -75,7 +75,8 @@ The comparator compares the output of the PTAT circuit with a reference voltage 
 ##### Simulation Results
 - **Comparator Transient Response:**  
   The transient response plot below highlights the comparator’s performance under dynamic conditions.  
-  ![Comparator Transient Response](https://github.com/user-attachments/assets/12b13c16-965a-4913-bd8f-dfef2de3de64)
+  ![image](https://github.com/user-attachments/assets/17eb0505-4569-4c24-91da-ceafbf943ddb)
+
 
 #### Digital-to-Analog Converter (DAC)
 The 10-bit DAC is implemented using an R-2R resistor network, ensuring high linearity and accuracy. It converts the digital output from the SAR ADC into an analog voltage.
