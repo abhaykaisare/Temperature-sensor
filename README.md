@@ -14,7 +14,7 @@
 - [Contact](#contact)
 
 ## Overview
-This project focuses on designing a high-precision CMOS temperature sensor for an IoT system. The sensor PTAT Generator circuit with high-order curvature correction and a 10-bit SAR ADC to convert temperature variations into digital signals. The design operates within a temperature range of -40°C to 125°C with an accuracy of ±0.2°C, ensuring reliable performance in diverse environmental conditions.
+This project focuses on designing a high-precision CMOS temperature sensor for an IoT system. The sensor PTAT Generator circuit with high-order curvature correction and a 10-bit SAR ADC to convert temperature variations into digital signals. The design operates within a temperature range of -40°C to 125°C with an accuracy of ±1°C, ensuring reliable performance in diverse environmental conditions.
 
 ### Key Components:
 - **Temperature Sensing Stage:** Self-biased BGR with a startup circuit.
@@ -25,7 +25,7 @@ This project focuses on designing a high-precision CMOS temperature sensor for a
 
 
 ## Features
-- **High Accuracy:** ±0.2°C over a wide temperature range (-40°C to 125°C).
+- **High Accuracy:** ±1°C over a wide temperature range (-40°C to 125°C).
 - **Self-biased BGR:** Ensures stable reference voltage with startup circuitry.
 - **High-order Curvature Correction:** Improves temperature measurement accuracy.
 - **Low Power Consumption:** Optimized for IoT applications.
