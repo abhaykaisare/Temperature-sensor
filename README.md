@@ -108,5 +108,5 @@ The final circuit integrates the PTAT generator, SAR ADC, comparator, and DAC in
 - **Environmental and Weather Monitoring Systems**
 
 ## References.
-** SAR-ADC Design : ** https://github.com/muhammadaldacher/Analog-Design-of-Asynchronous-SAR-ADC
-** Temperature Sensor Reference : ** https://ece.umaine.edu/wp-content/uploads/sites/203/2012/05/SPesut_ECE547.pdf
+SAR-ADC Design :  https://github.com/muhammadaldacher/Analog-Design-of-Asynchronous-SAR-ADC
+Temperature Sensor Reference :  https://ece.umaine.edu/wp-content/uploads/sites/203/2012/05/SPesut_ECE547.pdf
