@@ -101,6 +101,12 @@ A multiplexer (MUX) is used within the DAC block to select the appropriate signa
 The final circuit integrates the PTAT generator, SAR ADC, comparator, and DAC into a cohesive temperature sensor design.
 ![Final Circuit](https://github.com/user-attachments/assets/408de835-c0e3-4284-bfed-928fb9e3d66e)
 
+**Results:**
+Below is the waveform which represents the transient simulation of a SAR ADC. The step-like transitions indicate the successive approximation process, where the ADC determines each bit sequentially. The periodic pattern shows the sampling and conversion cycles in operation.
+
+![image](https://github.com/user-attachments/assets/d8f4461e-f1e9-4755-ab41-cf3da110b292)
+
+
 ## Applications
 - **IoT-Based Temperature Monitoring Systems**
 - **Industrial and Automotive Temperature Sensing**
@@ -109,4 +115,7 @@ The final circuit integrates the PTAT generator, SAR ADC, comparator, and DAC in
 
 ## References.
 SAR-ADC Design :  https://github.com/muhammadaldacher/Analog-Design-of-Asynchronous-SAR-ADC
+
 Temperature Sensor Reference :  https://ece.umaine.edu/wp-content/uploads/sites/203/2012/05/SPesut_ECE547.pdf
+
+
