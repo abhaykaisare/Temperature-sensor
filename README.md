@@ -47,7 +47,8 @@ Below is the schematic diagram of the PTAT generator with the startup circuit:
 
 - **Plot 2: Startup Circuit Response**  
   This plot demonstrates the startup performance of the circuit.  
-  ![Startup Circuit Response](https://github.com/user-attachments/assets/5f16e3bd-f9f8-48f7-9233-eccd9eb4d916)
+  ![image](https://github.com/user-attachments/assets/f6e3b2e7-bf05-4e7f-b01d-3cb03dda7199)
+
 
 ### 2. 10-bit SAR ADC
 The SAR ADC converts the analog temperature-dependent voltage into a 10-bit digital output. It is chosen for its low power consumption, compact size, and high resolution.
@@ -59,6 +60,11 @@ The D-Flip Flop is a key element in the SAR logic, providing storage for the bin
 #### SAR Logic
 The SAR logic controls the ADC operation by performing a binary search to determine the correct digital output corresponding to the input voltage.  
 ![SAR Logic](https://github.com/user-attachments/assets/c6e3d139-ef97-44da-8e33-0086dc17de69)
+
+#### SAR ADC
+The Analog-to-Digital converter is implemented using a Successive Approximation Register(SAR) for all conversions. This design was chosen because it requires minimal logic and space on the chip.
+
+![image](https://github.com/user-attachments/assets/42df3eb5-407c-4c92-b462-7baf59abc994)
 
 #### Simulation Results
 - **SAR Block Output:**  
@@ -87,11 +93,12 @@ The 10-bit DAC is implemented using an R-2R resistor network, ensuring high line
   **R = 100kΩ**
 
 Below is the schematic for the DAC:
-![DAC Schematic](https://github.com/user-attachments/assets/fd2756c2-1d00-49cf-8c84-88a3e7008ece)
+![image](https://github.com/user-attachments/assets/61d1252b-889b-4968-aff5-509d37bd4a19)
 
 #### MUX Design
 A multiplexer (MUX) is used within the DAC block to select the appropriate signal path.  
-![MUX Design](https://github.com/user-attachments/assets/c3ba7d09-8d14-4a33-83aa-e9eb695914af)
+![image](https://github.com/user-attachments/assets/34257a68-db41-4b58-b6f1-3d6039e4483e)
+
 
 ##### Simulation Results
 - **DAC Output:**  
@@ -100,7 +107,8 @@ A multiplexer (MUX) is used within the DAC block to select the appropriate signa
 
 #### Final Circuit Overview
 The final circuit integrates the PTAT generator, SAR ADC, comparator, and DAC into a cohesive temperature sensor design.
-![Final Circuit](https://github.com/user-attachments/assets/408de835-c0e3-4284-bfed-928fb9e3d66e)
+![image](https://github.com/user-attachments/assets/f22396cc-725e-4f90-aa64-98acc9dcfd12)
+
 
 **Results:**
 Below is the waveform which represents the transient simulation of a SAR ADC. The step-like transitions indicate the successive approximation process, where the ADC determines each bit sequentially. The periodic pattern shows the sampling and conversion cycles in operation.
