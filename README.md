@@ -10,8 +10,7 @@
     - [Comparator](#comparator)
     - [Digital-to-Analog Converter (DAC)](#digital-to-analog-converter-dac)
 - [Applications](#applications)
-- [License](#license)
-- [Contact](#contact)
+- [References](#references)
 
 ## Overview
 This project focuses on designing a high-precision CMOS temperature sensor for an IoT system. The sensor PTAT Generator circuit with high-order curvature correction and a 10-bit SAR ADC to convert temperature variations into digital signals. The design operates within a temperature range of -40°C to 125°C with an accuracy of ±1°C, ensuring reliable performance in diverse environmental conditions.
@@ -21,7 +20,9 @@ This project focuses on designing a high-precision CMOS temperature sensor for a
 - **Analog Signal Processing block:** It ensures the signal is within the proper range for analog-to-digital conversion
 - **10-bit SAR ADC:** Converts the sensed analog temperature signal into digital form.
   
-![Temperature sensor core](https://github.com/user-attachments/assets/c2708644-8b8d-41db-8664-8ff3d0ab4acc)
+![block_new](https://github.com/user-attachments/assets/6ab8393f-81a1-4bd5-a591-ae280111c916)
+
+
 
 
 ## Features
